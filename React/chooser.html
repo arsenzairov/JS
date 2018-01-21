@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <title>Font Chooser</title>
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="FontChooser.js" type="text/babel"></script>
+</head>
+<body>
+
+<div id='container'></div>
+
+<script type="text/babel">
+
+    class FontChooser extends React.Component {
+
+
+        constructor(props) {
+            super(props);
+            var min = this.props.min > 1 ? parseInt(this.props.min) : 1;
+            var max = parseInt(this.props.max);
+            var size = parseInt(this.props.size);
+            if (min > max){ max = min;}
+            if (size < min) size = min;
+            if (size > max) size = max;
+
+            this.state = {
+                bold : false, isHidden : true, size : size, color : 'black',  min : min , max : max }
+        }
+
+        toggle() {
+            this.setState({isHidden : !this.state.isHidden});
+
+            var formElements = document.getElementsByClassName("form");
+            for (let element of formElements) {
+                element.hidden = this.state.isHidden;
+            }
+        }
+
+        checkbox() {
+            this.setState({bold : !this.state.bold })
+        }
+
+        increaseButton() {
+
+            if (this.state.size < this.state.max){
+                this.setState({
+                    size : this.state.size + 1
+                });
+            }
+        }
+
+        decreaseButton() {
+
+            if (this.state.size > this.state.min) {
+                this.setState({size: this.state.size - 1})
+            }
+
+        }
+
+        render() {
+
+
+            var bold = this.state.bold ? 'bold' : 'normal';
+            var color = (this.state.size == this.state.min ||
+                this.state.max == this.state.size) ? 'red' : 'black';
+
+
+            return(
+                    <div>
+                        <input className="form" type="checkbox" id="boldCheckbox" onChange={this.checkbox.bind(this)} hidden='true'/>
+                        <button className="form" id="decreaseButton" hidden='true' onClick={this.decreaseButton.bind(this)}>-</button>
+                        <span className="form" id="fontSizeSpan" hidden='true'>{this.state.size}</span>
+                        <button className="form" id="increaseButton" hidden='true' onClick={this.increaseButton.bind(this)}>+</button>
+
+                        <span style= {{fontWeight : bold, fontSize : this.state.size,color : color}} onClick={this.toggle.bind(this)} id="textSpan">{this.props.text}</span>
+                    </div>
+            );
+        }
+    }
+
+    ReactDOM.render(
+            <div>
+                <FontChooser min='4' max='40' size='16' text='Fun with React!' bold='false'/>
+            </div>,
+        document.getElementById('container'))
+    ;
+
+</script>
+
+</body>
+</html>
