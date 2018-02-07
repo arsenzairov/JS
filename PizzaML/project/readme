@@ -1,0 +1,14 @@
+$dom = simplexml_load_file(menu.xml);
+
+$lecture["number"] // access the attribute of lecture
+
+
+$dom->xpath("/lectures/lecture[@number='3'] ") as $lecture) // attribute 3
+
+
+
+<item>
+    <name> Brocolli </name>
+</item>
+
+$xml->xpath('//pizzas/item[name="Brocolli"]'));

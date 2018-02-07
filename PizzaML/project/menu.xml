@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<menu>
+    <category type="Pizzas" id="pizzas">
+        <item name="Tomato &amp; Cheese">
+            <price choice="small">5.50</price>
+            <price choice="large">9.75</price>
+        </item>
+        <item name="Onions">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Peppers">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Broccoli">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Fresh Garlic">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Mushrooms">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Fresh Spinach">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Anchovies">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Sausage">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Meatball">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Bacon">
+            <price choice="small">6.85</price>
+            <price choice="large">10.85</price>
+        </item>
+        <item name="Hawaiian">
+            <price choice="small">7.95</price>
+            <price choice="large">11.80</price>
+        </item>
+    </category>
+
+    <category type="Speciality Pizzas" id="speciality">
+        <item name="Three Aces Special">
+            <price choice="small">9.80</price>
+            <price choice="large">15.80</price>
+        </item>
+        <item name="Mediterranean" description="Sliced Tomatoes,Olives, Spinach, Fresh
+Garlic, Mozzarella &amp; Feta Cheese ">
+            <price choice="small">9.80</price>
+            <price choice="large">15.80</price>
+        </item>
+        <item name="Vegetarian" description="Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella ">
+            <price choice="small">9.80</price>
+            <price choice="large">15.80</price>
+        </item>
+        <item name="Meat Lovers" description="Pepperoni, Hamburg, Sausage &amp; Bacon">
+            <price choice="small">9.80</price>
+            <price choice="large">15.80</price>
+        </item>
+        <item name="Bbq Grilled Chicken" description="Choice of Vegetables">
+            <price choice="small">9.80</price>
+            <price choice="large">15.80</price>
+        </item>
+        <item name="Grecian Supreme " description="Grilled Chicken, Feta Cheese, Tomatoes , Kalamata Olives">
+            <price choice="small">9.80</price>
+            <price choice="large">15.80</price>
+        </item>
+
+    </category>
+    <category type="Special Dinners" id="dinners">
+        <item name="Chicken Wing Dinner">
+            <price choice="">7.25</price>
+        </item>
+        <item name="Gyro Plate">
+            <price choice="">7.25</price>
+        </item>
+        <item name="Chicken Finger Plate">
+            <price choice="">7.25</price>
+        </item>
+        <item name="3 Piece Chicken Dinner">
+            <price choice="">7.25</price>
+        </item>
+        <item name="Cheeseburger or Chicken Burger Plate">
+            <price choice="">7.25</price>
+        </item>
+        <item name="Double-cheeseburger Plate">
+            <price choice="">7.25</price>
+        </item>
+        <item name="Chicken Kabob Plate " description="With rice, salad &amp; pita bread">
+            <price choice="">7.25</price>
+        </item>
+        <item name="Steak Tips Dinner" description="Served with side salad &amp; french fries">
+            <price choice="">7.25</price>
+        </item>
+    </category>
+
+    <category type="Side Orders" id="sides">
+        <item name="Onion Rings">
+            <price choice="small"> 2.60 </price>
+            <price choice="large"> 2.95 </price>
+        </item>
+        <item name="French Fries">
+            <price choice="small"> 2.25 </price>
+            <price choice="large"> 2.65 </price>
+        </item>
+        <item name="Spicy Fries">
+            <price choice="small"> 2.60 </price>
+            <price choice="large"> 2.95 </price>
+        </item>
+        <item name="Chicken Wings">
+            <price choice=""> 5.75 </price>
+        </item>
+        <item name="Buffalo Wings">
+            <price choice=""> 5.75 </price>
+        </item>
+        <item name="Chicken Fingers">
+            <price choice=""> 5.75 </price>
+        </item>
+        <item name="Mozzarella Sticks(7 Pieces).">
+            <price choice=""> 4.50 </price>
+        </item>
+        <item name="Slice Cheese Pizza">
+            <price choice=""> 1.65 </price>
+        </item>
+        <item name="Slice Pepperoni Pizza">
+            <price choice=""> 1.85 </price>
+        </item>
+        <item name="Homemade Spinach Pie">
+            <price choice=""> 3.10 </price>
+        </item>
+    </category>
+</menu>
