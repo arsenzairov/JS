@@ -18,7 +18,7 @@
 
 define('DB_HOST','localhost');
 define('DB_USER','root');
-define('DB_PASSWORD','arsen2101');
+define('DB_PASSWORD','');
 define('DB_DATABASE','project1');
 
 function render($template, $data = array())
