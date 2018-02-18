@@ -1,0 +1,28 @@
+
+Bart Train Schedule
+
+	Project 2 from Harvard CS75
+	http://cdn.cs75.net/2012/summer/projects/2/
+
+Project Details:
+	Create a website where users can look up real-time schedule 
+	information (arrivals / departures) of BART train routes.
+
+Instructions:
+	Users pick a route from the drop down menu, a list of stations will show.
+	Users pick a station, the real-time arrivals/departures appear on the page.
+	Also, the route is drawn in a google map and users can click on the map
+	marker of a station & see real-time departure times pop-up on the map.
+	By default, route #1 is displayed in the Google map on first page load.
+	The bart.sql file has all the tables pre-filled with data from the BART API.
+
+Languages: 
+	HTML - CSS - PHP - SQL - Javascript
+
+3rd Party Tools: 
+	- BART API 
+	- Google Maps API
+
+
+Needed Improvements:
+	- BART API calls are sometimes slow
