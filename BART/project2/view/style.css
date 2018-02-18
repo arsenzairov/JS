@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#header {
+    font-weight: bold;
+}
+
+#logoText {
+    margin-left: 50px;
+}
+
+#showcase img {
+    width: 100%;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+
+#showcase h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase a {
+    position: relative;
+    right: -150px;
+    bottom: -10px;
+
+}
+
+
+#showcase .showcase-right {
+    margin-top: 20px;
+}
+
+#testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#testimonial p{
+    font-size: 32px;
+    font-family: Helvetica;
+}
+
+#testimonial p.customer {
+    font-size: 20px;
+    color: #666;
+}
+
+.info-left img {
+    width: 100%;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+
+#info1 .info-right {
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+
+#contact {
+    padding: 40px;
+    color: #fff;
+    background:url("http://photoshoptutorials.wizapps.org/apps/wp-content/uploads/2012/06/tut-136-9.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+}
+
+#contact form label{
+    font-weight: bold;
+}
+
+.sideText {
+    text-align: center;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+
+.sideText h1{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.sideText p.lead{
+    font-weight: bold;
+}
+
+.phone {
+    color: black;
+}
+
+
+#image-section{
+    background: url("https://hdwallsource.com/img/2014/5/gorgeous-train-track-wallpaper-37978-38848-hd-wallpapers.jpg");
+    background-size: cover;
+    margin-top:-18px;
+    height: 60vh;
+    z-index: 1;
+    padding-top: 120px;
+}
+
+#text-section {
+    z-index: 2;
+    color : #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.main-area {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background: url("http://www.designbolts.com/wp-content/uploads/2013/02/Light-aluminum-Grey-Seamless-Pattern-For-Website-Background.jpg");
+    display: flex;
+
+}
+
+.main-area #form-section {
+    flex: 1;
+    position: relative;
+    bottom: -180px;
+}
+
+.main-area #map-section {
+    flex : 3;
+}
+
+#footer-station {
+    position: relative;
+    top: -47px;
+}
+
+
+
+
+
+
